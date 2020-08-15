@@ -1,0 +1,49 @@
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  .data{
+    transform: translateX(600px);
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+    text-align: right;
+    margin-right: 10px;
+  
+  }
+  .site-layout .site-layout-content {
+    background: #fff;
+    text-align: left;
+    margin-right: 10px;
+  
+  } 
+  .picture{
+    position: relative;
+    left: 13%;
+    float: left;
+    background: yellow;
+  }
+  .List_ifo{
+    position: relative;
+    right: 13%;
+    float: right;
+    min-width: 500px;
+  }
+  .Tags{
+      margin-top: 70px;
+  }
+
+  .SourceData{
+      margin-top: 30px;
+      max-width: 80%;
+      position: relative;
+      left: 10%;
+  }
+
+  .btn{
+    position: relative;
+    left: 30%;
+    margin-left: 50px;
+  }

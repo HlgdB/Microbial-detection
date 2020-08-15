@@ -1,0 +1,45 @@
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  .data{
+    transform: translateX(600px);
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+    text-align: right;
+    margin-right: 10px;
+  
+  }
+  .site-layout .site-layout-content {
+    background: #fff;
+    text-align: left;
+    margin-right: 10px;
+  }
+
+  .Btn{
+    min-width: 100px;
+  }
+  .Search{
+    position: relative;
+    left: 30%;
+  }
+  #btn4{
+    position: relative;
+    left: 20%;
+  }
+  #btn3{
+    position: relative;
+    left: 20%;
+  }
+
+  #btn2{
+    position: relative;
+    left: 10%;
+  }
+  #btn1{
+    position: relative;
+    left: 10%;
+  }

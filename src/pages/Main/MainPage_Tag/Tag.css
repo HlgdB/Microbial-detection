@@ -1,0 +1,33 @@
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  .data{
+    transform: translateX(600px);
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+    text-align: right;
+    margin-right: 10px;
+  
+  }
+  .titlepic{
+    width: 3%;
+    height: 3%;
+    margin-right: 10px;
+    border-radius:50%; 
+    overflow:hidden;
+  }
+  .UserName{
+
+  }
+  .Userpic{
+    width: 6%;
+    height: 6%;
+    margin-right: 10px;
+    border-radius:50%; 
+    overflow:hidden;
+    background-color: yellow;
+  }
