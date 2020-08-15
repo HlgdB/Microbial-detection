@@ -1,7 +1,7 @@
 import 'antd/dist/antd.css';
 import { Link } from 'umi';
 import React, { useState } from 'react';
-import { Layout, Menu, Breadcrumb, Statistic, Row, Col, Modal } from 'antd';
+import { Layout, Menu, Breadcrumb, Statistic, Row, Col, Modal, Carousel  } from 'antd';
 import './PageTag.css';
 import titlepic from '../../static/cat.jpg'
 import pic1 from '../../static/pic1.png'
@@ -108,6 +108,37 @@ class AddLabel extends React.Component {
     }
   }
 
+const CarouselPic = () => {
+    function onChange(a, b, c) {
+        console.log(a, b, c);
+    }
+        
+    const contentStyle = {
+        height: '320px',
+        color: '#fff',
+        lineHeight: '320px',
+        textAlign: 'center',
+        background: '#364d79',
+    };
+
+    return(
+        <Carousel afterChange={onChange} style={{width:'100%',height:'100%'}}>
+            <div>
+            <h3 style={contentStyle}>1</h3>
+            </div>
+            <div>
+            <h3 style={contentStyle}>2</h3>
+            </div>
+            <div>
+            <h3 style={contentStyle}>3</h3>
+            </div>
+            <div>
+            <h3 style={contentStyle}>4</h3>
+            </div>
+        </Carousel>
+    )
+}
+
 
 class PageTag extends React.Component {
     state = {
@@ -183,7 +214,11 @@ class PageTag extends React.Component {
                             <Breadcrumb.Item>数据标注</Breadcrumb.Item>
                         </Breadcrumb>
                         <div className="site-layout-content" style={{ padding: 24, minHeight: 360 }}>
-                            <img className="picture" src={pic1} />
+                            {/* <img className="picture" src={pic1} /> */}
+                            <div className="picture" >
+                                <CarouselPic  />
+                            </div>
+                            
                             <div className="List_ifo">
                                 <List
                                     // className='List_ifo'

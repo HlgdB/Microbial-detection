@@ -20,6 +20,8 @@
   
   } 
   .picture{
+    width: 380px;
+    height: 320px;
     position: relative;
     left: 13%;
     float: left;
