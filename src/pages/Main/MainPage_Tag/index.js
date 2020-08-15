@@ -161,8 +161,8 @@ const menu = (
       key: 'action',
       render: (text, record) => (
         <Space size="middle">
-          <a href='/main/MianPage_showResult'>{record.action_name[0]}</a>
-          <a href='/main/MainPage_SourceTag'>{record.action_name[1]}</a>
+          <Link to='/main/MianPage_showResult'>{record.action_name[0]}</Link>
+          <Link to='/main/MainPage_SourceTag'>{record.action_name[1]}</Link>
           <a>{record.action_name[2]}</a>
         </Space>
       ),
@@ -224,7 +224,7 @@ class TagPage extends React.Component {
                 <Layout className="site-layout">
                     <Header className="site-layout-background" style={{ padding: 0 }} >
                         <div className="id">
-                        <a href='/login'><img className="titlepic" src={titlepic} alt="" /></a>
+                        <Link to="../login"><img className="titlepic" src={titlepic} alt="" /></Link>
 
               用户名
               </div>

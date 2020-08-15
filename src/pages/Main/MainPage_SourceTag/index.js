@@ -202,7 +202,7 @@ class PageTag extends React.Component {
                 <Layout className="site-layout">
                     <Header className="site-layout-background" style={{ padding: 0 }} >
                         <div className="id">
-                        <a href='/login'><img className="titlepic" src={titlepic} alt="" /></a>
+                        <Link to="../login"><img className="titlepic" src={titlepic} alt="" /></Link>
 
               用户名
               </div>

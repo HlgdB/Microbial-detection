@@ -70,8 +70,8 @@ class NormalLoginForm extends React.Component {
                             <a className="login-form-forgot">
                                 {"    ".replace(/ /g, "\u00a0")}
                             </a>
-                            <a className="login-form-forgot" href="/post">
-                                注册账户
+                            <a className="login-form-forgot">
+                                <Link to="post">注册账户</Link>
                 </a>
                         </Form.Item>
 
